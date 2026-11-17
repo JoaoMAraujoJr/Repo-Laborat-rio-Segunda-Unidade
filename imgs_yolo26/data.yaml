@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['insects', 'mushrooms', 'trees', 'wizards']
+
+roboflow:
+  workspace: joaos-workspace-2fsvt
+  project: yolo26-custom-object-detection
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/joaos-workspace-2fsvt/yolo26-custom-object-detection/2
